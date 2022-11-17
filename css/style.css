@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(to right, #562288, #413c91, #304d94, #2f5b91, #3e668a);
+    
+}
+
+header{
+    background-image: linear-gradient(to right, #562288, #413c91, #304d94, #2f5b91, #3e668a);
+    margin-bottom: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index:10;
+    
+
+}
+.header__nav__div{
+    text-align: right;
+}
+.header__nav__li {
+    text-decoration: none;
+    font-size: 4rem;
+    margin-left: 10px;
+    padding: 5px;
+    width: 100px;
+    display:inline;
+    color: rgb(248, 245, 245);
+    
+
+}
+.a{ display: flex;
+    border-radius: solid rgb(135, 25, 145);
+    text-decoration: none;
+    font-size: 3rem;
+    margin-left: 30px;
+    padding: 0px;
+    bottom: 0px;
+    display: inline;
+    color: white;
+ 
+}
+
+
+
+
+
+
+header img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50px;
+    
+   
+    
+}
+.tituloPrincipal {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'display', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgb(228, 227, 227)
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'display', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgb(228, 227, 227)
+}
+h2{
+    text-align: center;
+    font-family: 'display', sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgb(228, 227, 227)
+}
+
+
+.main__section__imagen {
+    margin-left: 180px;
+    margin-top: 10px;
+    width: 1000px;
+    height:500px;
+   
+
+
+}
+.main__section__parrafo{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'display', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(228, 227, 227)
+    
+}
+.main__section__video{
+    margin-left: 180px;
+    width: 1000px;
+    height:500px;
+}
+.footer{
+   
+    text-align: center;
+}
+.footer_link{
+   
+    text-decoration: none;
+    font-size: 3rem;
+    margin-left: 30px;
+    padding: 0px;
+    bottom: 0px;
+    display: inline;
+    color: white;
+}
+.footer__parrafo{
+    
+    text-align: center;
+    font-family: 'display', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    color: rgb(228, 227, 227)
+}
+
+  
+
+
