@@ -5,56 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header> 
-        <a href="../index.html"><img src="../imagenes/143-1433248_dead-by-daylight-logo-sword (1).png" alt="Este es el logo"> </a>
         
-        <nav>
-            <div class="header__nav__div">
-                <ul>
-            
-                <li class="header__nav__li"><a class="a" href="../index.html">Inicio</a></li>
-                <li class="header__nav__li"><a class="a" href="../pages/acercade.html">Acerca de</a></li>
-                <li class="header__nav__li"><a class="a" href="../pages/eventos.html">Eventos</a></li>
-                <li class="header__nav__li"><a class="a" href="../pages/tienda.html">Tienda</a></li>
-                <li class="header__nav__li"><a class="a" href="#">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+            <nav class=" navbar navbar-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/143-1433248_dead-by-daylight-logo-sword (1).png" alt="Logo" width="80" height="70" class="d-inline-block align-text-top">
+                    
+                    </a>
+                    </div>
+            </nav>    
+            </a>   
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-around w-100">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/acercade.html">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
                 </ul>
-            </div>    
-        </nav>
-       
+              </div>
+            </div>
+          </nav>
+        
 
     </header>
 <main>
+    
     <h1 class="tituloPrincipal">Contacto</h1>
-    <section>
-        <img src="../imagenes/ROALI5GX6ZHKJMKSPMJ5LPWXNA.jpg" alt="Fondo">
+    <div class="container marco w-75">       
         <form>
-            <div>
-            <input type="text" placeholder="Nombre*" required>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <div>
-            <input type="email" placeholder="Email" required>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-            <div>
-                <select>
-                    <option value="">Medio de pago</option>
-                    <option value="1">Debito</option>
-                    <option value="2">Credito</option>
-                </select>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check form-label" for="exampleCheck1"></label>
             </div>
-            <div>
-               <input type="checkbox" name="Suscribirse" value="1">
-                <label for="">Suscribirse</label>
-            </div>   
-            <div>
-                <input type="submit" value="enviar ahora">
-            </div>
-        </form>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+            <div id="emailHelp" class="form-text">Nunca compartiremos tu Email o tus datos.</div>
+
+          </form>
+        </div>
 
 
-    </section>
+    </div> 
+    
 
     </main>
     <footer class="footer"> <!-- pie de pagina-->
@@ -64,5 +89,6 @@
         <a class="footer_link" href="">WhatsApp</a>
  <p class="footer__parrafo">Todos los derechos reservados</p>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>  
 </body>
 </html>
