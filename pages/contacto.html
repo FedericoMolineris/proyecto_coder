@@ -57,22 +57,26 @@
         <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" required class="form-control" id="exampleInputPassword1">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check form-label" for="exampleCheck1"></label>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Metodo de pago</label>
+              <select id="inputState" class="form-select">
+                <option selected>Credito</option>
+                <option>Debito</option>
+                <option>Mercado Pago</option>
+              </select>
             </div>
             <button type="submit" class="btn btn-primary">Suscribirse</button>
-            <div id="emailHelp" class="form-text">Nunca compartiremos tu Email o tus datos.</div>
+            <div id="emailHelp" class="form-text">Nunca compartiremos tus datos.</div>
 
           </form>
         </div>
@@ -83,10 +87,11 @@
 
     </main>
     <footer class="footer"> <!-- pie de pagina-->
-        <a class="footer_link" href="">Facebook</a>
-         <a class="footer_link" href="">Instagram</a>
-         <a class="footer_link" href="">Twitter</a>
-        <a class="footer_link" href="">WhatsApp</a>
+      <a class="footer_link" href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a class="footer_link" href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <a class="footer_link" href="https://twitter.com/" target="_blank">Twitter</a>
+     <a class="footer_link" href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>
+     <a class="footer_link" href="https://www.twitch.tv/" target="_blank">Twitch</a>
  <p class="footer__parrafo">Todos los derechos reservados</p>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>  

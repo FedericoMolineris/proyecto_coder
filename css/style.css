@@ -80,10 +80,8 @@ h2{
 
 
 .main__section__imagen {
-    margin-left: 180px;
-    margin-top: 10px;
-    width: 1000px;
-    height:500px;
+    width: 100%;
+    height:80%;
    
 
 
@@ -98,9 +96,10 @@ h2{
     
 }
 .main__section__video{
-    margin-left: 180px;
-    width: 1000px;
-    height:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 .footer{
    
@@ -116,6 +115,9 @@ h2{
     display: inline;
     color: white;
     animation: float infinite 4s ease-in-out;
+}
+.footer_link:hover{
+    color: #8736a0;
 }
 @keyframes float {
     0%{
@@ -161,6 +163,7 @@ h2{
 
 .card-title{
     font-size: 1.5rem;
+    color:#8736a0
 }
 .card-body {
     flex: 10 10 auto;
@@ -173,7 +176,10 @@ h2{
     border-color: #3d87f5;
   }
   .card-text{
-    font-size: 1.5rem;
+    color: #8736a0;
+    font-family: 'display', sans-serif;
+    font-size: 2rem;
+    
   }
   .imghover{
     transition: transform 2s;
@@ -227,6 +233,10 @@ h2{
         margin-bottom: 0.125rem;
   
       }
+      .form-select{
+        font-size: 2rem;
+        color: #8736a0;
+      }
       .navbar-toggler {
         padding: 0.25rem 0.75rem;
         font-size: 1.25rem;
@@ -235,12 +245,7 @@ h2{
         border: 1px solid rgba(15, 15, 15, 0.705);
         border-radius: 0.25rem;
         transition: box-shadow 0.15s ease-in-out; }
-        .form-check {
-            display: block;
-            min-height: 1.5rem;
-            padding-left: 1.5em;
-            margin-bottom: 0.125rem;
-        }
+       
         .form-check-input {
             width: 2rem;
             height: 2rem;
