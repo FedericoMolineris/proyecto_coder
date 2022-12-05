@@ -1,0 +1,19 @@
+.tituloPrincipal {
+    @include fuentes (underline,$text-align-c,$fuente,$fontWeight,$sizeFuente-1,$color-primario)
+}
+h1{
+   @include fuentes2 ($text-align-c,$fuente,$fontWeight,$sizeFuente-1,$color-primario)
+}
+h2{
+   @include fuentes2 ($text-align-c,$fuente,$fontWeight,$sizeFuente-1,$color-primario)
+}
+.main__section__imagen {
+    width: 100%;
+    height:80%;
+}
+.main__section__parrafo{
+    @include parrafo ($pl:40px,$pr:40px,$fuente,$fw:500,$sizeFuente-2,$color-primario)
+}
+.main__section__video{
+   @include video ($displayFlex,$column:column,$a-items:center)
+}

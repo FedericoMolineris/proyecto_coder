@@ -1,0 +1,63 @@
+.card {
+    position: relative;
+    display: $displayFlex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:$color-primario;
+    background-clip: border-box;
+    border: 2px solid rgba(144, 25, 241, 0.945);
+    border-radius: 0.25rem;
+    margin-bottom: 10%;
+
+   
+    
+}
+.card-img-top {
+   
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+  
+  
+
+.card-title{
+    font-size: 1.5rem;
+    color:$color-secundario;
+}
+.card-body {
+    flex: 10 10 auto;
+    padding: 1rem 1rem;  
+    
+}
+.btn-primary {
+    color: $color-primario;
+    background-color: #6c167e;
+    border-color: #3d87f5;
+  }
+  .card-text{
+    color: $color-secundario;
+    font-family: $fuente;
+    font-size: $sizeFuente-2;
+    
+  }
+  .imghover{
+    transition: transform 2s;
+    
+  }
+  .imghover:hover{
+    transform: scale(1.5);
+    overflow: hidden;
+    cursor: zoom-in;
+    align-self: center;
+  }
+  @keyframes float {
+    0%{
+        transform:translateY(0)
+    }
+    50%{transform: translateY(-25px);}
+    100%{
+        transform: translateY(0);
+    }
+}
