@@ -1,0 +1,28 @@
+@mixin fuentes ($under:underline,$text-align-c,$fuente,$fontWeight,$sizeFuente-1,$color-primario){
+text-decoration: $under;
+    text-align: $text-align-c;
+    font-family: $fuente;
+    font-weight: $fontWeight;
+    font-size: $sizeFuente-1;
+    color: $color-primario;
+}
+@mixin fuentes2 ($text-align-c,$fuente,$fontWeight,$sizeFuente-1,$color-primario){
+    text-align: $text-align-c;
+    font-family: $fuente;
+    font-weight: $fontWeight;
+    font-size: $sizeFuente-1;
+    color: $color-primario;
+}
+@mixin parrafo ($pl:40px,$pr:40px,$fuente,$fw:500,$sizeFuente-2,$color-primario){
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: $fuente;
+    font-weight: 500;
+    font-size: $sizeFuente-2;
+    color: $color-primario;
+}
+@mixin video ($displayFlex,$column:column,$a-items:center){
+    display: $displayFlex;
+    flex-direction: column;
+    align-items: center;  
+}
